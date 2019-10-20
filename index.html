@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Online Calculator</title>
+
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="display"></div>
+
+        <div id="calculator">
+            <div class="row">
+                <button id="deleteBtn" class="col operator">C</button>
+                <button class="col operator">CE</button>
+                <button class="col operator">%</button>
+                <button class="col operator">&divide;</button>
+            </div>
+
+            <div class="row">
+                <button class="col number">7</button>
+                <button class="col number">8</button>
+                <button class="col number">9</button>
+                <button class="col operator">&times;</button>
+            </div>
+
+            <div class="row">
+                <button class="col number">4</button>
+                <button class="col number">5</button>
+                <button class="col number">6</button>
+                <button class="col operator">-</button>
+            </div>
+
+            <div class="row">
+                <button class="col number">1</button>
+                <button class="col number">2</button>
+                <button class="col number">3</button>
+                <button class="col operator">+</button>
+            </div>
+
+            <div class="row">
+                <button class="col"></button>
+                <button class="col number">0</button>
+                <button class="col number">.</button>
+                <button class="col equals">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
