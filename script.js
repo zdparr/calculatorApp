@@ -16,11 +16,12 @@ function buttonClick(num) {
 
 function clearClick(num) {
     document.getElementById("display").innerText = "";
+    document.getElementById("result").innerText = "0";
 }
 
 function equalClick(num) {
     let equation = eval(document.getElementById("display").innerText);
-    document.getElementById("display").innerHTML = (equation);
+    document.getElementById("result").innerHTML = (equation);
 }
 
 function numberClick(num) {
