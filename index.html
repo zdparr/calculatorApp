@@ -18,43 +18,34 @@
 </head>
 
 <body>
-    <div class="container">
-        <div id="display"></div>
-
-        <div id="calculator">
-            <div class="row">
-                <button id="deleteBtn" class="col operator">C</button>
-                <button class="col operator">CE</button>
-                <button class="col operator">%</button>
-                <button class="col operator">&divide;</button>
+    <div id="wrapper">
+        <div id="calculator" class="calculator">
+            <div id="displayBox">
+                <div id="display">1+1</div>
+                <div id="result">2</div>
             </div>
 
-            <div class="row">
-                <button class="col number">7</button>
-                <button class="col number">8</button>
-                <button class="col number">9</button>
-                <button class="col operator">&times;</button>
-            </div>
-
-            <div class="row">
-                <button class="col number">4</button>
-                <button class="col number">5</button>
-                <button class="col number">6</button>
-                <button class="col operator">-</button>
-            </div>
-
-            <div class="row">
-                <button class="col number">1</button>
-                <button class="col number">2</button>
-                <button class="col number">3</button>
-                <button class="col operator">+</button>
-            </div>
-
-            <div class="row">
-                <button class="col"></button>
-                <button class="col number">0</button>
-                <button class="col number">.</button>
-                <button class="col equals">=</button>
+            <div id="keyboard">
+                <button id="deleteBtn" class="operator">C</button>
+                <button class="operator">CE</button>
+                <button class="operator">%</button>
+                <button value="/" class="divide">&divide;</button>
+                <button value="7" >7</button>
+                <button value="8" >8</button>
+                <button value="9" >9</button>
+                <button value="*" class="multiply">&times;</button>
+                <button value="4" >4</button>
+                <button value="5" >5</button>
+                <button value="6" >6</button>
+                <button value="-" class="minus">-</button>
+                <button value="1" >1</button>
+                <button value="2" >2</button>
+                <button value="3" >3</button>
+                <button value="+" class="add">+</button>
+                <button class=""></button>
+                <button value="0" >0</button>
+                <button value="." >.</button>
+                <button value="=" class="equals">=</button>
             </div>
         </div>
     </div>

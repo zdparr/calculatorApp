@@ -2,11 +2,11 @@ document.getElementById("calculator").addEventListener("click", buttonClick);
 
 function buttonClick(num) {
 
-    if (num.target.innerText === "C") {
+    if (num.target.id === "deleteBtn") {
         clearClick(num);
     }
 
-    if (num.target.innerText === "=") {
+    if (num.target.value === "=") {
         equalClick(num);
     }
     else {
@@ -15,7 +15,7 @@ function buttonClick(num) {
 }
 
 function clearClick(num) {
-    document.getElementById("display").innerHTML = "";
+    document.getElementById("display").innerText = "";
 }
 
 function equalClick(num) {
@@ -25,6 +25,6 @@ function equalClick(num) {
 
 function numberClick(num) {
     let displayNumber = ""
-    displayNumber = document.getElementById("display").innerHTML + num.target.innerText
+    displayNumber = document.getElementById("display").innerText + num.target.value
     document.getElementById("display").innerHTML = displayNumber
 }

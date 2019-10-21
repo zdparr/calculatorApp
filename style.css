@@ -1,14 +1,71 @@
 body {
     font-family: 'Lato';
+    background-color: black;
+}
+
+#wrapper {
+    height: 650px;
+    width: 1000px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("./images/containerBackground.jpg");
+    margin: 20px auto;
+}
+
+#calculator {
+    width: 350px;
+    height: 500px;
+    background-color: lightgrey;
+    position: relative;
+    margin: 0 auto;
+    top: 35px;
+    border-radius: 5px;
+}
+
+#displayBox {
+    height: 80px;
+
 }
 
 #display {
-    height: 100px;
-    width: 500px;
-    border: 1px solid black;
+    color: grey;
+    text-align: right;
+    margin: 0px 20px;
+    padding-top: 5px;
+}
+
+#result {
+    text-align: right;
+    margin: 10px 20px;
+    font-weight: bold;
+    font-size: 150%;
 }
 
 button {
-    height: 25px;
-    width: 25px;
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    border-radius: 50%;
+    float: left;
+    border-width: 0;
+    background-color: lightgrey;
+    font-size: 130%;
+}
+
+.divide {
+    background-color: teal;
+}
+
+.multiply {
+    background-color: orange;
+}
+
+.minus {
+    background-color: salmon; 
+}
+
+.add {
+    background-color: #8ab3ed;
+}
+
+.equals {
+    background-color: #cb74e8;
 }
