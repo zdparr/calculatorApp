@@ -12,7 +12,7 @@ body {
 
 #calculator {
     width: 350px;
-    height: 500px;
+    height: 570px;
     background-color: lightgrey;
     position: relative;
     margin: 0 auto;
@@ -21,7 +21,7 @@ body {
 }
 
 #displayBox {
-    height: 80px;
+    height: 150px;
 
 }
 
@@ -48,6 +48,10 @@ button {
     border-width: 0;
     background-color: lightgrey;
     font-size: 130%;
+}
+
+.dark {
+    background-color: #c0c2c4 !important;
 }
 
 .divide {
